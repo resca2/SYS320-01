@@ -17,3 +17,5 @@ pagesAmount=$(cat "$file" | grep "curl/" | cut -d' ' -f1,12 | sort | uniq -c)
 
 pageCount
 echo "$pagesAmount"
+
+
